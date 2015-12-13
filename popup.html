@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            padding: 8px 4px;
+        }
+        html, body {
+            margin: 0;
+            width: 300px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        p {
+            color: #fff;
+        }
+        p:first-child{
+            color: #ccc;
+        }
+/*        .red {
+            color: #c10;
+        }
+        .green {
+            color: #383;
+        }*/
+        .red:hover {
+            color: #c10;
+        }
+        .green:hover {
+            color: #383;
+        }
+        span {
+            display: inline-block;
+            vertical-align: top;
+        }
+        span.name {
+            width: 60px;
+            overflow: hidden;
+        }
+        span.start {
+            width: 40px;
+        }
+        span.cur {
+            width: 40px;
+        }
+        span.rate {
+            width: 40px;
+        }
+        span.h {
+            width: 40px;
+        }
+        span.l {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div id="stockList" class="list">
+    </div>
+    <script src="jquery-2.0.0.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

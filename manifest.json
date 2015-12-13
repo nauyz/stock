@@ -1,0 +1,19 @@
+{  
+    "name": "stock",
+    "version": "0.1.10.25",
+    "manifest_version": 2,  
+    "description": "stock.", 
+    "permissions" : ["http://localhost/", "http://*.baidu.com/*", "http://192.168.2.12:11111/*"], 
+    "browser_action": {  
+        "default_icon": "icon.png" ,
+        "default_title": "stock",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["jquery-2.0.0.min.js", "background.js"]
+    }
+    // "content_scripts":[{
+    //     "matches":["http://*.baidu.com/*"],
+    //     "js":["jquery-2.0.0.min.js", "content.js"]
+    // }]
+} 
